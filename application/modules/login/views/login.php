@@ -23,8 +23,6 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-
-
     </head>
     <body>
         <div class="container-fluid" id="contenedor-general-login">
