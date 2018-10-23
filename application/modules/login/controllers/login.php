@@ -15,7 +15,11 @@ class Login extends MX_Controller {
         $data['usuario'] = $this->data_users();
         $this->load->view('login', $data);
     }
+    public function registro() {
 
+        $data['usuario'] = $this->data_users();
+        $this->load->view('registro', $data);
+    }
     public function data_users() {
 
         return $this->Login_model->get_users();
