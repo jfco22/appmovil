@@ -60,7 +60,7 @@ $template['default']['template'] = 'template';
 $template['default']['regions'] = array(
 		'content',
 		'header',
-		'sidebar'
+		'footer'
 );
 $template['default']['parser'] = 'parser';
 $template['default']['parser_method'] = 'parse';

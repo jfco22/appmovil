@@ -1,6 +1,6 @@
 
 RewriteEngine On
-RewriteBase /hmvc_ci_3_1_9/
+RewriteBase /appmovil/
 RewriteCond $1 !^(index\.php|public|css|images|robots\.txt|sitemap\.xml)
-RewriteRule ^(.*)$ /hmvc_ci_3_1_9/index.php/$1 [L]
-ErrorDocument 404 /hmvc_ci_3_1_9/index.php
+RewriteRule ^(.*)$ index.php/$1 [L]
+ErrorDocument 404 index.php
